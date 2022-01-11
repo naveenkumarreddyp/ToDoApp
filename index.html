@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>TODO APP(Fetch API)</title>
+</head>
+<body>
+    <div class = "dropDownMenu">
+        <label for="get_task_update">Get Task Update:</label>
+        <select name="tasks" id="taskStatus">
+            <option value="">--Please choose an option--</option>
+            <option value="All Tasks">All Tasks</option>
+            <option value="Completed Tasks">Completed Tasks</option>
+            <option value="Pending Tasks">Pending Tasks</option>
+        </select>
+    </div>
+    <div>
+        <table class="table table-stripped">
+            <thead>
+                <tr>
+                    <th>User Id</th>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Completed</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+    
+            </tbody>
+        </table>
+    </div>
+</body>
+<script type="text/javascript" src="./script.js"></script>
+</html>
